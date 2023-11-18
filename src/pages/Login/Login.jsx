@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
 import Navbar from "../shared/Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 const Login = () => {
+
+    const [loginError, setLoginError] = useState('');
+    const [success, setSuccess] = useState('');
+    const [showPassword, setShowPassword] = useState(false);
 
     const { signIn } = useContext(AuthContext);
 
@@ -16,14 +21,32 @@ const Login = () => {
         const email = form.get('email');
         const password = form.get('password');
         console.log(email, password);
+
+        setLoginError('');
+        setSuccess('');
+
+        // if (signIn) {
+        //     setLoginError('Already Signed In');
+        //     return;
+        // }
+        // else if (!/[A-Z]/.test(password)) {
+        //     setLoginError('at least one upper case');
+        //     return;
+        // }
+
         signIn(email, password)
             .then(result => {
                 console.log(result.user)
+                setSuccess('Login Successfully')
             })
             .catch(error => {
                 console.error(error);
+                setLoginError('Your Email or Password Does not Match');
             })
     }
+
+
+
 
     return (
         <div>
@@ -41,11 +64,22 @@ const Login = () => {
                         <label className="label">
                             <span className="label-text">Password</span>
                         </label>
-                        <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
+                        <input type={showPassword ? "text" : "password"} placeholder="Password" name="password" className="input input-bordered" required />
+                        <span className="relative bottom-8 left-full" onClick={() => setShowPassword(!showPassword)}>
+                            {
+                                showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
+                            }
+                        </span>
                         <label className="label">
-                            <Link to='/register'>Forgot password?</Link>
+                            <a href="/register" className="label-text-alt link link-hover"><span className="text-blue-600 font-bold">Forgot password?</span></a>
                         </label>
                     </div>
+                    {
+                        loginError && <p className="text-red-600 text-center font-bold text-xl">{loginError}</p>
+                    }
+                    {
+                        success && <p className="text-green-600 text-center font-bold text-xl">{success}</p>
+                    }
                     <div className="form-control mt-6">
                         <button className="btn btn-primary">Login</button>
                     </div>

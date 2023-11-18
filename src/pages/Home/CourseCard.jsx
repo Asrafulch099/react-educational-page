@@ -6,7 +6,7 @@ const CourseCard = ({ courses }) => {
 
     // eslint-disable-next-line react/prop-types
     const { name, id, image, short_description, price, button } = courses || {}
-
+ 
     return (
         <div className="">
             <div className="p-10">

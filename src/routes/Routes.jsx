@@ -4,7 +4,7 @@ import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import AboutUs from "../pages/About/AboutUs";
-import Courses from "../pages/courseDetails/Courses";
+import Courses from "../pages/Courses/Courses";
 
 const router = createBrowserRouter([
   {
@@ -14,11 +14,12 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-          loader: () => fetch('courses.json')
+          loader: () => fetch('/courses.json')
       },
       {
         path: '/courses/:id',
-        element: <Courses></Courses>
+        element: <Courses></Courses>,
+        loader:() => fetch('/courses.json')
       },
       {
         path: '/login',

@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Cyber Security",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "image": "https://i.ibb.co/j60T9YN/html-css-collage-concept-with-hacker.jpg",
       "price": 29.99,
       "short_description": "A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.A fantastic product with great features.",
       "button": "Buy Now"
@@ -10,15 +10,15 @@
     {
       "id": 2,
       "name": "Web Development",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "image": "https://i.ibb.co/9Ntb6Gp/web-design-website-coding-concept.jpg",
       "price": 49.99,
       "short_description": "An amazing product that will exceed your expectations.",
       "button": "Add to Cart"
     },
     {
       "id": 3,
-      "name": "Data Science",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "name": "Data Analytics",
+      "image": "https://i.ibb.co/0DhDtBV/data-online-technology-internet-circuit-board-concept.jpg",
       "price": 39.99,
       "short_description": "A must-have item for every enthusiast.",
       "button": "View Details"
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "name": "Programming",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "image": "https://i.ibb.co/GtLPmdW/html-system-website-concept.jpg",
       "price": 59.99,
       "short_description": "Incredible features packed into a sleek design.",
       "button": "Buy Now"
@@ -34,7 +34,7 @@
     {
       "id": 5,
       "name": "Artificial Intelligence",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "image": "https://i.ibb.co/XZ9fnZ8/16396162-rm373batch5-blogbanner-08.jpg",
       "price": 79.99,
       "short_description": "Experience innovation like never before.",
       "button": "Add to Cart"
@@ -42,7 +42,7 @@
     {
       "id": 6,
       "name": "Graphics Design",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "image": "https://i.ibb.co/2kxzC58/splashing-colorful-powder-frame-white-background-ai-generative.jpg",
       "price": 49.99,
       "short_description": "Unmatched performance in a compact form.",
       "button": "View Details"
@@ -50,7 +50,7 @@
     {
       "id": 7,
       "name": "UI/UX Design",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "image": "https://i.ibb.co/SK5M8Bx/16683353-5757453.jpg",
       "price": 69.99,
       "short_description": "Cutting-edge technology for the modern user.",
       "button": "Buy Now"
@@ -58,7 +58,7 @@
     {
       "id": 8,
       "name": "Data Entry",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "image": "https://i.ibb.co/jhgW2DR/2807766-18141.jpg",
       "price": 89.99,
       "short_description": "Elevate your lifestyle with this premium product.",
       "button": "Add to Cart"
@@ -66,7 +66,7 @@
     {
       "id": 9,
       "name": "Digital Marketing",
-      "image": "https://i.ibb.co/LJBrMxK/wp11970103-4k-cyber-wallpapers.jpg",
+      "image": "https://i.ibb.co/yYfs1Fh/17578561-business-facebook-cover-15.jpg",
       "price": 99.99,
       "short_description": "Luxury meets functionality in this exclusive item.",
       "button": "View Details"
